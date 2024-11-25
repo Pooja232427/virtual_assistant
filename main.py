@@ -49,7 +49,7 @@ def speak(text):
 # Function to process commands using OpenAI's API (GPT-3 or GPT-4)
 def aiProcess(command):
     # Initialize OpenAI client with your API key
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="key")
 
     # Send the command to OpenAI for processing and get the response
     completion = client.chat.completions.create(
